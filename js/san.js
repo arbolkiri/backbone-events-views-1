@@ -1,17 +1,17 @@
-;(function(m){
+;(function(sopa){
 
     "use strict";
 
-    function Person(name){
+    function Sopa(name){
         this.name = name;
     }
 
-    Person.prototype = {
+    Sopa.prototype = {
         setName: function(name){
             this.name = name;
         }
     }
 
-    m.Person = Person;
+    sopa.Sopa = Sopa;
 
 })(typeof module === "object" ? module.exports : window);
